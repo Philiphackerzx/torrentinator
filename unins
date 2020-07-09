@@ -1,0 +1,10 @@
+
+unins='\033[1;32m'
+rm -rf /data/data/com.termux/files/home/torrentinator
+cd /sdcard/download/www.philiphacker.in/
+rm -rf torrentinator
+mkdir torrentinator
+NC='\033[0m'
+clear
+echo ${unins} Torrentinator - Uninstalled ✓ ${NC}
+

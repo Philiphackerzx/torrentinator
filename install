@@ -1,0 +1,15 @@
+termux-setup-storage
+clear
+echo "Installing..."
+pkg install zip -y
+pkg install unzip -y
+mkdir "/sdcard/download/www.philiphacker.in"
+mkdir "/sdcard/download/www.philiphacker.in/torrentinator"
+mkdir "/sdcard/download/www.philiphacker.in/torrentinator/torrent-downloads"
+mkdir "/sdcard/download/www.philiphacker.in/torrentinator/magnet-to-torrent"
+mkdir "/sdcard/download/www.philiphacker.in/torrentinator/torrent-to-magnet"
+mkdir "/sdcard/download/www.philiphacker.in/torrentinator/torrent-hashes"
+cp updater /sdcard/download/www.philiphacker.in/torrentinator/
+cp unins /sdcard/download/www.philiphacker.in/torrentinator/
+echo 1 > check.io
+sh start
